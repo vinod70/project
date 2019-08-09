@@ -12,7 +12,7 @@ node{
     
     stage('Build enveronment') {
         
-        if (env.BRANCH_NAME==DEV) {
+        if (env.BRANCH_NAME=='DEV') {
             sh 'ansible-playbook -i dev.inventory site.yml'
         }
         else if(env.Branch_name=='TEST'){
