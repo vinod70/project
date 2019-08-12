@@ -1,10 +1,10 @@
 [test]
-172.31.14.48
+172.31.44.255
 
 
 [test:vars]
 ansible_user=ec2-user
-ansible_ssh_private_key_file=~/shiva.pem
+ansible_ssh_private_key_file=~/ansible.pem
 
 
 # This is the default ansible 'hosts' file.
