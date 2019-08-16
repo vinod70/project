@@ -1,5 +1,5 @@
 [dev]
-172.31.45.63
+52.66.243.145
 
 [dev:vars]
 ansible_user=ec2-user
