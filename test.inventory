@@ -1,6 +1,5 @@
 [test]
-172.31.44.255
-
+172.31.16.192
 
 [test:vars]
 ansible_user=ec2-user
